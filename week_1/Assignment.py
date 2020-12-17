@@ -1,4 +1,5 @@
 import time
+
 def Task1():
     text = input(' \t Desired Input :')
     for i in range (len(text)):
@@ -47,4 +48,4 @@ def Task3():
         print(each_split)
         time.sleep(1)
 
-Task3()
+Task1()
