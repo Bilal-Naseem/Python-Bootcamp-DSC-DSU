@@ -11,3 +11,8 @@
 ## 3. Build a school scraper that'll scrap 50 schools' info and generate a CSV.
 ### Output Image :
   ![CSV File Image](./Outputs/Task_3.PNG)
+
+## 4. Try accessing your university's dashboard where your assignments and resources are uploaded..
+### Output Image :
+    CMS was accessed to get Attendance of all registered courses in the current semester
+  ![Task 4 Image](./Outputs/Task_4.PNG)
