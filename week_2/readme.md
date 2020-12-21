@@ -13,7 +13,7 @@
   ![CSV File Image](./Outputs/Task_3.PNG)
 
 ## 4. Try accessing your university's dashboard where your assignments and resources are uploaded..
+To check the most updated Version of this task, Please visit [Bahria CMS Scrapper](https://github.com/Bilal-Naseem/BahriaCmsScrapper)
 ### Output Image :
-    To check the most updated Version of this task, Please visit [Bahria CMS Scrapper](https://github.com/Bilal-Naseem/BahriaCmsScrapper)
     CMS was accessed to get Attendance of all registered courses in the current semester
   ![Task 4 Image](./Outputs/Task_4.PNG)
