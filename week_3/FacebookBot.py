@@ -25,13 +25,11 @@ def CommentingOnPost():
             Comment_Number = Comment_Number + 1
             Comment_Post = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.NAME, "submit")))
 
-            # Comment_Post = driver.find_element_by_name('submit')
             Comment_Post.click()
         except Exception as e:
             print("Error while Posting Comment:")
             print(e)
             return False
-        # sleep(10)
     return True
 
 
@@ -39,7 +37,7 @@ def LikeAndSharePost():
     try:
         #Liking the Post
         Like_Button = WebDriverWait(driver,10).until(EC.presence_of_element_located((By.ID,"u_0_s")))
-        # Like_Button.click()
+        Like_Button.click()
         
         #Clicking The First Share Button
         shareButton = driver.find_element_by_css_selector('a[data-sigil="share-popup"]')
@@ -98,7 +96,7 @@ def Login():
         Password_Input_Field = driver.find_element_by_id("pass")
 
         #Sending Input into Fields
-        Email_Input_Field.send_keys('bilal.naseem.100@gmail.com')
+        Email_Input_Field.send_keys(input("Enter Email : "))
         Password_Input_Field.send_keys(getpass("Enter Password : "))
 
         Login_In_Button = driver.find_element_by_css_selector("button[name='login']")
