@@ -3,6 +3,8 @@
 ## Output Video
 ![Bot Liking, Posting And Commenting on Post](./Output-gif.gif)
 
+### 1. Take as user input a Facebook post link and have your bot like the post and share it on your timeline
+
 ## Code:
 Libraries used are
 ```python
@@ -149,6 +151,8 @@ def LikeAndSharePost():
         return False
     return True
 ```
+### 2. Make the bot created above make at least 50 comments in succession on the page. 
+
 Once The post Sharing is Successful, it time to spam in the comment section :)
 ```python
 def CommentingOnPost():
